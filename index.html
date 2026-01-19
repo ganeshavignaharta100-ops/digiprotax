@@ -1,126 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Digiprotax | Tax & GST Consultancy in Mumbai</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Digiprotax | Tax & GST Consultancy in Mumbai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
-            background: #f4f6f9;
-            color: #333;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
 
-        header {
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
+header {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 42px;
-            letter-spacing: 1px;
-        }
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
 
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
 
-        nav {
-            background: white;
-            padding: 12px 20px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: #2c5364;
-            font-weight: 600;
-        }
+nav {
+    background: white;
+    padding: 12px 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
 
-        nav a:hover {
-            color: #0f2027;
-        }
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2c5364;
+    font-weight: 600;
+}
 
-        section {
-            padding: 50px 20px;
-            max-width: 1100px;
-            margin: auto;
-        }
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
 
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
+h2 {
+    color: #2c5364;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            transition: transform 0.3s;
-        }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
 
-        .card:hover {
-            transform: translateY(-5px);
-        }
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
 
-        h2 {
-            color: #2c5364;
-            margin-bottom: 20px;
-        }
+footer {
+    background: #0f2027;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+}
 
-        ul {
-            padding-left: 18px;
-        }
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
 
-        .btn {
-            display: inline-block;
-            padding: 12px 25px;
-            background: #25D366;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            margin-top: 15px;
-        }
+button {
+    padding: 12px 25px;
+    background: #2c5364;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
 
-        .btn:hover {
-            background: #1ebe5d;
-        }
-
-        footer {
-            background: #0f2027;
-            color: white;
-            text-align: center;
-            padding: 25px 10px;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 32px;
-            }
-            nav {
-                text-align: center;
-            }
-            nav a {
-                display: inline-block;
-                margin: 8px;
-            }
-        }
-    </style>
+button:hover {
+    background: #203a43;
+}
+</style>
 </head>
+
 <body>
 
 <header>
@@ -133,6 +128,7 @@
 <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -140,12 +136,12 @@
     <h2>About Us</h2>
     <div class="card">
         <p>
-            Digiprotax is a Mumbai-based professional taxation consultancy providing reliable and affordable services in 
-            Income Tax, GST, TDS, Accounting, Audit and Advisory.
+        Digiprotax is a Mumbai-based professional taxation consultancy providing reliable services in 
+        Income Tax, GST, TDS, Accounting, Audit and Advisory.
         </p>
         <p>
-            With more than <strong>8+ years of experience</strong>, we help individuals and businesses stay compliant, 
-            save tax legally and grow with confidence.
+        With <strong>8+ years of experience</strong>, we help individuals and businesses stay compliant, 
+        save tax legally and grow confidently.
         </p>
     </div>
 </section>
@@ -153,7 +149,6 @@
 <section id="services">
     <h2>Our Services</h2>
     <div class="grid">
-
         <div class="card">
             <h3>Income Tax</h3>
             <ul>
@@ -170,4 +165,77 @@
                 <li>GST Returns</li>
                 <li>GST Compliance</li>
             </ul>
-        </
+        </div>
+
+        <div class="card">
+            <h3>TDS</h3>
+            <ul>
+                <li>TDS Return Filing</li>
+                <li>TDS Corrections</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Accounting</h3>
+            <ul>
+                <li>Bookkeeping</li>
+                <li>Accounting Packages</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Audit & Advisory</h3>
+            <ul>
+                <li>Tax Audit</li>
+                <li>Business Advisory</li>
+                <li>Financial Consulting</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="why">
+    <h2>Why Choose Digiprotax?</h2>
+    <div class="grid">
+        <div class="card">✔ 8+ Years Professional Experience</div>
+        <div class="card">✔ Timely & Accurate Compliance</div>
+        <div class="card">✔ Affordable Professional Fees</div>
+        <div class="card">✔ Personal Attention to Every Client</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="grid">
+
+        <div class="card">
+            <h3>Office Details</h3>
+            <p><strong>Location:</strong> Mumbai</p>
+            <p><strong>Mobile:</strong> 8286383816</p>
+            <p>Email queries welcome 24×7.</p>
+            <a class="btn" href="https://wa.me/918286383816">Chat on WhatsApp</a>
+        </div>
+
+        <div class="card">
+            <h3>Send Us a Message</h3>
+
+            <!-- IMPORTANT: Yahan apna Formspree link paste karo -->
+            <form action="https://formspree.io/f/YOURFORMID" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="mobile" placeholder="Your Mobile Number" required>
+                <textarea name="message" rows="5" placeholder="Your Query" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Digiprotax | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
